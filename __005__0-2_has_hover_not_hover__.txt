@@ -11,3 +11,15 @@
     }
   }
 
+vesrion 2
+
+.images:has(img:hover) img:not(:hover) {
+    filter: grayscale(100%);
+    opacity: .5;
+}
+
+.images:has(img:hover) {
+    border-radius: 40px 0 40px 0;
+    overflow: hidden;
+}
+
